@@ -1,0 +1,32 @@
+.portfolioList{
+    #li{
+        font-size: 14px;
+        margin-right: 50px;
+        padding: 7px;
+        border-radius:10px ;
+        cursor: pointer;
+
+        &.active{
+            background-color: #15023a;
+            color: white;
+        }
+    }
+}
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .portfolioList {
+        #li {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .portfolioList {
+        #li {
+            margin-right: 10px;
+            font-size: 12px;
+        }
+    }
+}
